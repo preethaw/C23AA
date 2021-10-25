@@ -16,15 +16,8 @@ class Ball {
 
 
   display() {
-   // push();
-   // translate(this.body.position.x, this.body.position.y);
-    //rotate(this.body.angle);
-    ellipseMode(RADIUS);   
-
     ellipse(this.body.position.x,this.body.position.y, this.radius, this.radius);
-   // ellipse(0,0, this.radius, this.radius);
-    //pop();
-  }
+    }
 
   
 }
