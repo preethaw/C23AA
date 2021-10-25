@@ -23,11 +23,7 @@ class Box {
     stroke("red");
     strokeWeight(5)
     rect(0, 0, this.width, this.height);
-    pop();
-
-
-    //rect(this.body.position.x,this.body.position.y, this.width, this.height);
-  
+    pop();  
     
   }
 }
